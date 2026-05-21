@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - mur
+  - Dechets
   layers:
   - Default
   - TransparentFX

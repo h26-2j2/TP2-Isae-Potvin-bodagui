@@ -6,7 +6,13 @@ using System;
 public class jeu : MonoBehaviour
 {
     public string introScene = "EcranTitre";
-    public string sceneJeu = "Niveau1";
+    public string niveau1 = "Niveau1";
+
+    public string niveau2 = "Niveau2";
+
+    public string niveau3 = "Niveau3";
+
+    public string sceneVictoire = "EcranVictoire";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
@@ -19,6 +25,11 @@ public class jeu : MonoBehaviour
     }
     public void DemmarerJeu()
     {
-        SceneManager.LoadScene(sceneJeu);
+        SceneManager.LoadScene(niveau1);
+    }
+
+    public void RedemmarerJeu()
+    {
+        SceneManager.LoadScene(introScene);
     }
 }
